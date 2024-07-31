@@ -98,9 +98,7 @@ header .container {
   border-radius: 10%;
 }
 
-.row h4 {
-  text-shadow: 2px 2px 5px;
-}
+
 
 .log1 {
   font-size: xx-large;
@@ -159,7 +157,9 @@ header .container {
 }
 
 .navbar-toggler {
-    margin-left: auto; 
+    margin-left: auto;
+    position: sticky;
+    top: 0; 
 }
 
 
