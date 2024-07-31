@@ -1,10 +1,10 @@
 body {
-  padding-top: 56px;
+  font-family: "Roboto", sans-serif;
 }
-.ubuntu-regular {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
 }
 
 .portfolio-item {
@@ -42,7 +42,7 @@ footer {
 }
  */
 .tel span {
-  font-weight: bold ;
+  font-weight: bold;
   color: yellow;
 }
 
@@ -74,7 +74,7 @@ header .container {
 
 .abt-img img {
   border-radius: 30%;
-  margin-left: 9%;
+  margin-left: 5%;
 }
 
 .logo1 {
@@ -87,30 +87,59 @@ header .container {
   text-decoration: solid;
 }
 
-.project-pic img{
-    box-shadow: 4px 4px 8px;
-    border-radius: 10%;
-    
+.project-pic img {
+  box-shadow: 4px 4px 8px;
+  border-radius: 10%;
 }
 
+.project-pic1 img {
+  box-shadow: 4px 4px 8px;
+  margin-top: 20px;
+  border-radius: 10%;
+}
 
-.project-pic1 img{
-    box-shadow: 4px 4px 8px;
+.row h4 {
+  text-shadow: 2px 2px 5px;
+}
+
+.log1 {
+  font-size: xx-large;
+  color: black;
+}
+
+.container-contact {
+  font-weight: bold;
+}
+
+.logo {
+  color: orange;
+  font-size: xx-large;
+  font-weight: bold;
+  text-shadow: 1px 1px;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+  #projects .portfolio-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #projects .project-pic,
+  #projects .project-pic1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #projects .project-pic img,
+  #projects .project-pic1 img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  #projects .portfolio-item h4 {
     margin-top: 20px;
-    border-radius: 10%;
-    
-}
-
-.row h4{
- text-shadow: 2px 2px 5px;
-
-}
-
-.log1{
-    font-size: xx-large;
-    color: black;
-}
-
-.container-contact{
-    font-weight: bold;
+  }
 }
