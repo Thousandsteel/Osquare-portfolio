@@ -1,0 +1,116 @@
+body {
+  padding-top: 56px;
+}
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+}
+
+.logo {
+  font-style: oblique;
+  color: orange;
+  font-size: 90px;
+}
+.head1 {
+  color: black;
+}
+
+/* .info {
+  padding-top: 50px;
+} */
+
+.info button {
+  border-radius: 20px;
+  padding-inline: 10px;
+  border: none;
+  color: rgba(255, 0, 0, 0.884);
+  font-weight: bold;
+}
+
+/* .tel {
+  padding-top: 20px;
+  margin-right: 100px;
+}
+ */
+.tel span {
+  font-weight: bold;
+  color: yellow;
+}
+
+header {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+}
+header img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  filter: blur(7px);
+}
+header .container {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.abt-img img {
+  border-radius: 30%;
+  margin-left: 15%;
+}
+
+.logo1 {
+  font-size: larger;
+  font-weight: bold;
+  font-style: oblique;
+}
+.learn-more {
+  font-size: larger;
+  text-decoration: solid;
+}
+
+.project-pic img{
+    box-shadow: 4px 4px 8px;
+    border-radius: 10%;
+    
+}
+
+
+.project-pic1 img{
+    box-shadow: 4px 4px 8px;
+    margin-top: 20px;
+    border-radius: 10%;
+    
+}
+
+.row h4{
+ text-shadow: 2px 2px 5px;
+
+}
+
+.log1{
+    font-size: xx-large;
+    color: black;
+}
+
+.container-contact{
+    font-weight: bold;
+}
