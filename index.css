@@ -120,6 +120,15 @@ header .container {
 
 /* Media Query for Mobile Devices */
 @media (max-width: 768px) {
+      .navbar {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .navbar-collapse {
+        flex-grow: 1;
+        justify-content: flex-end;
+    }
   #projects .portfolio-item {
     flex-direction: column;
     text-align: center;
@@ -143,3 +152,14 @@ header .container {
     margin-top: 20px;
   }
 }
+
+
+.navbar-brand {
+    white-space: nowrap; 
+}
+
+.navbar-toggler {
+    margin-left: auto; 
+}
+
+
